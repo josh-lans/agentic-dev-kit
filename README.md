@@ -14,7 +14,7 @@ AI coding tools are powerful but fail in predictable ways once a project outgrow
 
 1. **Context amnesia** — every session starts fresh and forgets architectural decisions made days ago.
 2. **Shortcut bias** — left unconstrained, the model takes the *simplest* path, not the *correct* one.
-3. **Scale blindness** — it doesn't inherently know that code hitting 3,000 production systems needs different patterns than a prototype.
+3. **Scale blindness** — it doesn't inherently know that code built to handle thousands of production systems needs different patterns than a prototype.
 4. **Forgotten wiring** — it adds the feature but misses three of the eight files that needed to change.
 5. **False confidence** — "done!" when the thing was never actually run and verified.
 
@@ -57,7 +57,7 @@ The same method produced three very different production systems:
 
 | Project | What it is | Why it's evidence |
 |---|---|---|
-| **[MonLite](case-studies/monlite.md)** | Enterprise observability platform (SAP, 6 databases, hosts, web) | Replaces a seven-figure contract; scale-validated to 3,000+ systems; embedded air-gapped AI assistant |
+| **[MonLite](case-studies/monlite.md)** | Enterprise observability platform (SAP, 6 databases, hosts, web) | Replaces a seven-figure contract; scale-tested to handle 3,000+ systems; embedded air-gapped AI assistant |
 | **[Pathfinder](case-studies/pathfinder.md)** | AI-augmented SAP-to-cloud migration decision engine | Multi-LLM authoring + a cumulative-intelligence loop; tamper-evident audit |
 | **[Disaster Scenario](case-studies/disaster-scenario.md)** | Cross-platform multiplayer game (Godot) | Multi-agent asset pipeline; deterministic tested core; proves the method travels beyond enterprise software |
 

@@ -21,7 +21,7 @@ A full-stack monitoring and observability platform spanning **SAP applications, 
 - **Enterprise hardening** — SSO (Okta / Microsoft Entra ID), team-scoped RBAC, encrypted credential vault, HMAC-signed audit logs; thousands of automated tests and a multi-workflow CI/security pipeline.
 
 ## Outcome
-**Scale-validated to 3,000+ monitored systems and 200+ concurrent users** (sub-300ms p95 and a 0.07% error rate under mixed load in a multi-phase test campaign). Presented as a business case and live platform to global leadership.
+**Scale-tested to handle 3,000+ systems and 200+ concurrent users** (sub-300ms p95 and a 0.07% error rate under mixed load in a multi-phase test campaign). Presented as a business case and live platform to global leadership.
 
 ## How the method showed up
 This was the proving ground for the Conductor method: hundreds of structured sessions under a living `.claude-docs/` system, multi-agent worktree orchestration for parallel feature work, a strict "no partial fixes" gate, and a persistent ops agent running against live SAP systems and databases to drive diagnostics and R&D.
