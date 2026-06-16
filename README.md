@@ -2,7 +2,7 @@
 
 **A battle-tested methodology and template set for building production software with AI agents — without losing quality, context, or control.**
 
-I used this approach to independently ship **three production-grade systems in about a year**, alongside a full-time job — including an enterprise observability platform built to replace a seven-figure commercial contract. Same method each time, across three completely different domains. This repo is that method, generalized so you can use it.
+I used this approach to independently ship **three production-grade systems in about a year**, alongside a full-time job — including an enterprise observability platform that delivers capability commercial tools charge six-to-seven figures for. Same method each time, across three completely different domains. This repo is that method, generalized so you can use it.
 
 > It's deliberately **tool-agnostic.** I orchestrate Claude, OpenAI Codex, Gemini, and Grok — plus generative pipelines (Meshy, Scenario) and a persistent ops agent — assigning each to the work it does best. The templates work with any AI coding assistant that can read your project files.
 
@@ -57,7 +57,7 @@ The same method produced three very different production systems:
 
 | Project | What it is | Why it's evidence |
 |---|---|---|
-| **[MonLite](case-studies/monlite.md)** | Enterprise observability platform (SAP, 6 databases, hosts, web) | Replaces a seven-figure contract; scale-tested to handle 3,000+ systems; embedded air-gapped AI assistant |
+| **[MonLite](case-studies/monlite.md)** | Enterprise observability platform (SAP, 6 databases, hosts, web) | Delivers six-to-seven-figure commercial monitoring capability; scale-tested to handle 3,000+ systems; embedded air-gapped AI assistant |
 | **[Pathfinder](case-studies/pathfinder.md)** | AI-augmented SAP-to-cloud migration decision engine | Multi-LLM authoring + a cumulative-intelligence loop; tamper-evident audit |
 | **[Disaster Scenario](case-studies/disaster-scenario.md)** | Cross-platform multiplayer game (Godot) | Multi-agent asset pipeline; deterministic tested core; proves the method travels beyond enterprise software |
 

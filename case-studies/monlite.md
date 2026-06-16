@@ -4,7 +4,7 @@
 *(Capability-level overview — architecture and outcomes, no proprietary code.)*
 
 ## The problem
-A global managed-services SAP estate relied on a commercial monitoring product with a **seven-figure** price tag and real capability gaps. The goal: a platform that covers more, fits the environment better, and removes the licensing dependency.
+A global managed-services SAP estate relied on commercial monitoring tooling with a **six-to-seven-figure** price tag and real capability gaps. The goal: an in-house platform that covers more, fits the environment better, and reduces licensing cost.
 
 ## What was built
 A full-stack monitoring and observability platform spanning **SAP applications, six database engines, hosts, and web services**, with real-time alerting, role-based access, and an embedded AI diagnostic assistant.
